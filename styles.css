@@ -8,3 +8,26 @@
   --heading-font: "Big Shoulders Display", cursive;
   --body-font: "Lexend Deca", sans-serif;
 }
+
+body {
+  background-color: var(--color-very-light-gray);
+  color: var(--color-transparent-white);
+  font-family: var(--body-font);
+  font-size: 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5rem 1.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
