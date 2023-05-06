@@ -21,6 +21,11 @@ body {
   padding: 5.5rem 1.5rem;
 }
 
+a:focus-visible {
+  outline: 0.2rem dotted white;
+  outline-offset: 0.2rem;
+}
+
 .sr-only {
   position: absolute;
   width: 0.0625rem;
